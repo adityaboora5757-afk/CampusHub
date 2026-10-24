@@ -1,0 +1,6 @@
+*.o
+campushub
+test_runner
+*.exe
+.vscode/
+.DS_Store
