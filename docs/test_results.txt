@@ -1,0 +1,58 @@
+CampusHub test suite
+====================
+AVL tree (student records)
+  [PASS] 1000 students inserted
+  [PASS] AVL + BST property holds after 1000 sorted inserts
+  [PASS] height <= 1.44 log2(n) (got <= 15, plain BST would be 1000)
+  [PASS] rotations were performed
+  [PASS] duplicate roll rejected
+  [PASS] search finds 777 (rec + iter)
+  [PASS] search misses 5000 (rec + iter)
+  [PASS] 500 odd rolls deleted
+  [PASS] tree still balanced after deletions
+  [PASS] deleted key gone, kept key present
+  [PASS] inorder traversal is sorted
+
+Hash table (library)
+  [PASS] Linear probing: all 7 books found
+  [PASS] Linear probing: search past a deleted slot still works
+  [PASS] Linear probing: duplicate ID rejected
+  [PASS] Quadratic probing: all 7 books found
+  [PASS] Quadratic probing: search past a deleted slot still works
+  [PASS] Quadratic probing: duplicate ID rejected
+  [PASS] Double hashing: all 7 books found
+  [PASS] Double hashing: search past a deleted slot still works
+  [PASS] Double hashing: duplicate ID rejected
+  [PASS] Separate chaining: all 7 books found
+  [PASS] Separate chaining: search past a deleted slot still works
+  [PASS] Separate chaining: duplicate ID rejected
+
+Graph (campus navigator)
+  [PASS] BFS: Main Gate -> Canteen takes 4 hops
+  [PASS] BFS: path to itself has length 1
+  [PASS] DFS finds a route to Sports Complex
+  [PASS] BFS reports no route to an isolated place
+  [PASS] DFS reports no route to an isolated place
+  [PASS] 2 connected components after adding isolated place
+  [PASS] duplicate edge rejected
+
+Max-heap (help desk)
+  [PASS] heap property holds after inserts
+  [PASS] tickets served in non-increasing priority
+  [PASS] equal priority served first-come-first-served
+  [PASS] invalid priority rejected
+
+Algorithm lab
+  [PASS] merge sort sorts 20000 random ints
+  [PASS] quick sort sorts 20000 random ints
+  [PASS] heap sort sorts 20000 random ints
+  [PASS] insertion sort sorts 20000 random ints
+  [PASS] quick sort stays O(n log n) on sorted input (median-of-three)
+  [PASS] binary search finds 21 at index 4
+  [PASS] binary search misses 8
+  [PASS] max-min finds 19 and -3
+  [PASS] max-min uses 3n/2-2 = 10 comparisons for n=8
+  [PASS] Hanoi(10) takes 1023 moves
+  [PASS] student ranking by CGPA is correct and stable
+
+Result: 45 passed, 0 failed

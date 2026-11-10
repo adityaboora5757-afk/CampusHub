@@ -1,0 +1,332 @@
+============================================================
+        CampusHub  -  DSA Mini Project (CSC2101)
+============================================================
+
+Choose library collision technique:
+ 1. Linear probing  2. Quadratic probing  3. Double hashing  4. Separate chaining
+Choice [1-4]: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: ------------------------------------------------------------
+ STUDENT RECORDS  (AVL Tree)   students: 10   height: 4
+------------------------------------------------------------
+ 1. Add student            2. Delete student
+ 3. Search (recursive)     4. Search (iterative)
+ 5. Inorder (recursive)    6. Inorder (non-recursive, stack)
+ 7. Preorder               8. Postorder
+ 9. Level order (queue)   10. Show tree structure
+11. Undo last delete      0. Back
+Choice:                      110(h1)
+              109(h2)
+       108(h3)
+                     107(h1)
+              106(h2)
+                     105(h1)
+104(h4)
+              103(h1)
+       102(h2)
+              101(h1)
+
+Press Enter to continue...------------------------------------------------------------
+ STUDENT RECORDS  (AVL Tree)   students: 10   height: 4
+------------------------------------------------------------
+ 1. Add student            2. Delete student
+ 3. Search (recursive)     4. Search (iterative)
+ 5. Inorder (recursive)    6. Inorder (non-recursive, stack)
+ 7. Preorder               8. Postorder
+ 9. Level order (queue)   10. Show tree structure
+11. Undo last delete      0. Back
+Choice:   Level 0: 104
+  Level 1: 102 108
+  Level 2: 101 103 106 109
+  Level 3: 105 107 110
+
+Press Enter to continue...------------------------------------------------------------
+ STUDENT RECORDS  (AVL Tree)   students: 10   height: 4
+------------------------------------------------------------
+ 1. Add student            2. Delete student
+ 3. Search (recursive)     4. Search (iterative)
+ 5. Inorder (recursive)    6. Inorder (non-recursive, stack)
+ 7. Preorder               8. Postorder
+ 9. Level order (queue)   10. Show tree structure
+11. Undo last delete      0. Back
+Choice: Roll to delete:   Deleted Rohan Mehta.
+
+Press Enter to continue...------------------------------------------------------------
+ STUDENT RECORDS  (AVL Tree)   students: 9   height: 4
+------------------------------------------------------------
+ 1. Add student            2. Delete student
+ 3. Search (recursive)     4. Search (iterative)
+ 5. Inorder (recursive)    6. Inorder (non-recursive, stack)
+ 7. Preorder               8. Postorder
+ 9. Level order (queue)   10. Show tree structure
+11. Undo last delete      0. Back
+Choice:   Restored Rohan Mehta.
+
+Press Enter to continue...------------------------------------------------------------
+ STUDENT RECORDS  (AVL Tree)   students: 10   height: 4
+------------------------------------------------------------
+ 1. Add student            2. Delete student
+ 3. Search (recursive)     4. Search (iterative)
+ 5. Inorder (recursive)    6. Inorder (non-recursive, stack)
+ 7. Preorder               8. Postorder
+ 9. Level order (queue)   10. Show tree structure
+11. Undo last delete      0. Back
+Choice: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: ------------------------------------------------------------
+ LIBRARY  (Hash Table, Linear probing)
+------------------------------------------------------------
+ 1. Add book        2. Search book     3. Remove book
+ 4. Issue book      5. Return book     6. Show table
+ 0. Back
+Choice:   Mode: Linear probing | books: 7 | load factor: 0.23 | collisions: 2
+  [10]  3110  Fundamentals of DS in C      Horowitz Sahni     available
+  [16]  5007  Discrete Mathematics         Rosen              available
+  [22]  4021  Database System Concepts     Silberschatz       available
+  [23]  1201  Data Structures Using C      Reema Thareja      available
+  [24]  1232  Introduction to Algorithms   Cormen et al.      available
+  [25]  1263  The C Programming Language   Kernighan          available
+  [30]  2045  Algorithm Design             Kleinberg          available
+
+Press Enter to continue...------------------------------------------------------------
+ LIBRARY  (Hash Table, Linear probing)
+------------------------------------------------------------
+ 1. Add book        2. Search book     3. Remove book
+ 4. Issue book      5. Return book     6. Show table
+ 0. Back
+Choice: Book ID:   Found in 3 probe(s): The C Programming Language by Kernighan [available]
+
+Press Enter to continue...------------------------------------------------------------
+ LIBRARY  (Hash Table, Linear probing)
+------------------------------------------------------------
+ 1. Add book        2. Search book     3. Remove book
+ 4. Issue book      5. Return book     6. Show table
+ 0. Back
+Choice: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: ------------------------------------------------------------
+ CAMPUS NAVIGATOR  (Graph: 10 places, 12 walkways, 1 component(s))
+------------------------------------------------------------
+ 1. Shortest route (BFS)     2. Does a route exist? (DFS)
+ 3. BFS order from a place   4. DFS order from a place
+ 5. Adjacency list           6. Adjacency matrix
+ 7. Add place                8. Add walkway
+ 0. Back
+Choice:    0 Main Gate
+   1 Admin Block
+   2 Library
+   3 AB-1
+   4 AB-2
+   5 Canteen
+   6 Hostel
+   7 Sports Complex
+   8 Auditorium
+   9 Parking
+From:    0 Main Gate
+   1 Admin Block
+   2 Library
+   3 AB-1
+   4 AB-2
+   5 Canteen
+   6 Hostel
+   7 Sports Complex
+   8 Auditorium
+   9 Parking
+To:   Shortest route (3 stop(s)):
+  Main Gate -> Parking -> Sports Complex -> Hostel
+
+Press Enter to continue...------------------------------------------------------------
+ CAMPUS NAVIGATOR  (Graph: 10 places, 12 walkways, 1 component(s))
+------------------------------------------------------------
+ 1. Shortest route (BFS)     2. Does a route exist? (DFS)
+ 3. BFS order from a place   4. DFS order from a place
+ 5. Adjacency list           6. Adjacency matrix
+ 7. Add place                8. Add walkway
+ 0. Back
+Choice:    0 Main Gate
+   1 Admin Block
+   2 Library
+   3 AB-1
+   4 AB-2
+   5 Canteen
+   6 Hostel
+   7 Sports Complex
+   8 Auditorium
+   9 Parking
+From:    0 Main Gate
+   1 Admin Block
+   2 Library
+   3 AB-1
+   4 AB-2
+   5 Canteen
+   6 Hostel
+   7 Sports Complex
+   8 Auditorium
+   9 Parking
+To:   DFS route (7 stop(s)):
+  Main Gate -> Admin Block -> Library -> AB-1 -> AB-2 -> Canteen -> Hostel -> Sports Complex
+
+Press Enter to continue...------------------------------------------------------------
+ CAMPUS NAVIGATOR  (Graph: 10 places, 12 walkways, 1 component(s))
+------------------------------------------------------------
+ 1. Shortest route (BFS)     2. Does a route exist? (DFS)
+ 3. BFS order from a place   4. DFS order from a place
+ 5. Adjacency list           6. Adjacency matrix
+ 7. Add place                8. Add walkway
+ 0. Back
+Choice: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: ------------------------------------------------------------
+ HELP DESK  (Max-Heap priority queue)   pending: 5
+------------------------------------------------------------
+ 1. Raise ticket       2. Serve next ticket
+ 3. Peek next ticket   4. Show heap array
+ 0. Back
+Choice:   Serving #1002 [Critical] Fire alarm fault in Hostel
+
+Press Enter to continue...------------------------------------------------------------
+ HELP DESK  (Max-Heap priority queue)   pending: 4
+------------------------------------------------------------
+ 1. Raise ticket       2. Serve next ticket
+ 3. Peek next ticket   4. Show heap array
+ 0. Back
+Choice:   Serving #1004 [High] Water leakage in Library
+
+Press Enter to continue...------------------------------------------------------------
+ HELP DESK  (Max-Heap priority queue)   pending: 3
+------------------------------------------------------------
+ 1. Raise ticket       2. Serve next ticket
+ 3. Peek next ticket   4. Show heap array
+ 0. Back
+Choice:   Heap array (index: id/priority):
+  [0] 1003/P3 [1] 1001/P2 [2] 1005/P1
+
+Press Enter to continue...------------------------------------------------------------
+ HELP DESK  (Max-Heap priority queue)   pending: 3
+------------------------------------------------------------
+ 1. Raise ticket       2. Serve next ticket
+ 3. Peek next ticket   4. Show heap array
+ 0. Back
+Choice: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: ------------------------------------------------------------
+ ALGORITHM LAB  (sorting, searching, recursion)
+------------------------------------------------------------
+ 1. Rank students by CGPA (merge sort)
+ 2. Sort your own numbers (merge / quick / heap)
+ 3. Binary search a roll number (iterative + recursive)
+ 4. Max & min of CGPAs (divide and conquer)
+ 5. Tower of Hanoi
+ 6. Run sorting benchmark
+ 0. Back
+Choice:   #1    Roll: 104     Name: Ananya Gupta          CGPA: 9.40
+  #2    Roll: 102     Name: Diya Patel            CGPA: 9.12
+  #3    Roll: 108     Name: Meera Nair            CGPA: 9.05
+  #4    Roll: 106     Name: Ishita Verma          CGPA: 8.88
+  #5    Roll: 110     Name: Sara Khan             CGPA: 8.67
+  #6    Roll: 101     Name: Aarav Sharma          CGPA: 8.45
+  #7    Roll: 109     Name: Arjun Joshi           CGPA: 8.10
+  #8    Roll: 103     Name: Kabir Singh           CGPA: 7.80
+  #9    Roll: 107     Name: Vihaan Rao            CGPA: 7.25
+  #10   Roll: 105     Name: Rohan Mehta           CGPA: 6.95
+
+Press Enter to continue...------------------------------------------------------------
+ ALGORITHM LAB  (sorting, searching, recursion)
+------------------------------------------------------------
+ 1. Rank students by CGPA (merge sort)
+ 2. Sort your own numbers (merge / quick / heap)
+ 3. Binary search a roll number (iterative + recursive)
+ 4. Max & min of CGPAs (divide and conquer)
+ 5. Tower of Hanoi
+ 6. Run sorting benchmark
+ 0. Back
+Choice: Roll to find:   Iterative index: 7   Recursive index: 7
+  Roll: 108     Name: Meera Nair            CGPA: 9.05
+
+Press Enter to continue...------------------------------------------------------------
+ ALGORITHM LAB  (sorting, searching, recursion)
+------------------------------------------------------------
+ 1. Rank students by CGPA (merge sort)
+ 2. Sort your own numbers (merge / quick / heap)
+ 3. Binary search a roll number (iterative + recursive)
+ 4. Max & min of CGPAs (divide and conquer)
+ 5. Tower of Hanoi
+ 6. Run sorting benchmark
+ 0. Back
+Choice:   Highest CGPA: 9.40   Lowest CGPA: 6.95
+  Comparisons: 14 (naive scan would use 18)
+
+Press Enter to continue...------------------------------------------------------------
+ ALGORITHM LAB  (sorting, searching, recursion)
+------------------------------------------------------------
+ 1. Rank students by CGPA (merge sort)
+ 2. Sort your own numbers (merge / quick / heap)
+ 3. Binary search a roll number (iterative + recursive)
+ 4. Max & min of CGPAs (divide and conquer)
+ 5. Tower of Hanoi
+ 6. Run sorting benchmark
+ 0. Back
+Choice: Number of disks (1-10):   Move disk 1: A -> C
+  Move disk 2: A -> B
+  Move disk 1: C -> B
+  Move disk 3: A -> C
+  Move disk 1: B -> A
+  Move disk 2: B -> C
+  Move disk 1: A -> C
+  Total moves: 7 (= 2^3 - 1)
+
+Press Enter to continue...------------------------------------------------------------
+ ALGORITHM LAB  (sorting, searching, recursion)
+------------------------------------------------------------
+ 1. Rank students by CGPA (merge sort)
+ 2. Sort your own numbers (merge / quick / heap)
+ 3. Binary search a roll number (iterative + recursive)
+ 4. Max & min of CGPAs (divide and conquer)
+ 5. Tower of Hanoi
+ 6. Run sorting benchmark
+ 0. Back
+Choice: ------------------------------------------------------------
+ MAIN MENU
+------------------------------------------------------------
+ 1. Student Records   (AVL Tree)
+ 2. Library           (Hash Table)
+ 3. Campus Navigator  (Graph, BFS/DFS)
+ 4. Help Desk         (Max-Heap)
+ 5. Algorithm Lab     (Sorting, Searching, Recursion)
+ 0. Exit
+Choice: Goodbye!
